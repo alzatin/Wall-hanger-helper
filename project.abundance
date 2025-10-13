@@ -372,8 +372,8 @@
     {
       "atomType": "GitHubMolecule",
       "name": "-6-Wood-Screw",
-      "x": 0.5116279069767442,
-      "y": 0.8819875776397516,
+      "x": 0.39285714285714285,
+      "y": 0.8509316770186335,
       "uniqueID": "4fe912b9-2f9d-4779-b1d2-ec1e7f818b29",
       "ioValues": [],
       "topLevel": false,
@@ -740,44 +740,6 @@
       ]
     },
     {
-      "atomType": "Assembly",
-      "name": "Assembly",
-      "x": 0.8488372093023255,
-      "y": 0.3105590062111801,
-      "uniqueID": "54f058cc-7630-4057-9c35-974b5f2c73a4",
-      "ioValues": [
-        {
-          "name": "Shape 4",
-          "ioValue": {
-            "geometry": "cut-9b25ee124ed310368754d454d334bc994625c6c14447bc9da933f9afd4286561",
-            "dimension": "3D",
-            "tags": [
-              "createdShape"
-            ],
-            "color": "#A3CE5B",
-            "plane": {
-              "origin": [
-                0,
-                0,
-                0
-              ],
-              "xDir": [
-                1,
-                0,
-                0
-              ],
-              "normal": [
-                0,
-                0,
-                1
-              ]
-            },
-            "bom": []
-          }
-        }
-      ]
-    },
-    {
       "atomType": "Move",
       "name": "Move",
       "x": 0.637873754152824,
@@ -803,8 +765,8 @@
     {
       "atomType": "Move",
       "name": "Move",
-      "x": 0.6004983388704319,
-      "y": 0.8664596273291926,
+      "x": 0.5656146179401993,
+      "y": 0.5652173913043479,
       "uniqueID": "ed4b83b8-93a8-4f74-b4c7-35e1312181a4",
       "ioValues": [
         {
@@ -865,6 +827,83 @@
       "y": 0.45652173913043476,
       "uniqueID": "c4ddb9bb-b8db-4049-bd9e-18028044de92",
       "ioValues": []
+    },
+    {
+      "atomType": "Rotate",
+      "name": "Rotate",
+      "x": 0.5398671096345515,
+      "y": 0.8633540372670808,
+      "uniqueID": "0fcea3cb-cc6f-4a95-9015-52a54b850bd8",
+      "ioValues": [
+        {
+          "name": "x-axis degrees",
+          "ioValue": 0
+        },
+        {
+          "name": "y-axis degrees",
+          "ioValue": 180,
+          "currentEquation": "180"
+        },
+        {
+          "name": "z-axis degrees",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Move",
+      "name": "Move",
+      "x": 0.6436877076411961,
+      "y": 0.8571428571428571,
+      "uniqueID": "e961351d-32cd-4435-a75d-b9a0d695fc5f",
+      "ioValues": [
+        {
+          "name": "xDist",
+          "ioValue": 0
+        },
+        {
+          "name": "yDist",
+          "ioValue": -8,
+          "currentEquation": "-8"
+        },
+        {
+          "name": "zDist",
+          "ioValue": 0
+        }
+      ]
+    },
+    {
+      "atomType": "Difference",
+      "name": "Difference",
+      "x": 0.8322259136212624,
+      "y": 0.7763975155279503,
+      "uniqueID": "2410c244-ec29-42b8-871d-647290d3bc10",
+      "ioValues": []
+    },
+    {
+      "atomType": "Export",
+      "name": "Export",
+      "x": 0.8662790697674417,
+      "y": 0.3944099378881988,
+      "uniqueID": "bbdae699-14d1-4187-9e94-5a32fff04c9e",
+      "ioValues": [
+        {
+          "name": "File Type",
+          "ioValue": "STL"
+        },
+        {
+          "name": "Resolution (dpi)",
+          "ioValue": 96
+        },
+        {
+          "name": "Part Name",
+          "ioValue": "Wall hanger helper"
+        }
+      ],
+      "type": null,
+      "resolution": 96,
+      "importIndex": 0,
+      "partName": "Wall hanger helper"
     }
   ],
   "allConnectors": [
@@ -899,10 +938,10 @@
       "ap2ID": "ed4b83b8-93a8-4f74-b4c7-35e1312181a4"
     },
     {
-      "ap1Name": "geometry",
-      "ap2Name": "number or geometry",
-      "ap1ID": "54f058cc-7630-4057-9c35-974b5f2c73a4",
-      "ap2ID": "1221c93e-9e6a-479e-9710-e1c6e130cd29"
+      "ap1Name": "geometry or number",
+      "ap2Name": "geometry",
+      "ap1ID": "4fe912b9-2f9d-4779-b1d2-ec1e7f818b29",
+      "ap2ID": "0fcea3cb-cc6f-4a95-9015-52a54b850bd8"
     },
     {
       "ap1Name": "geometry",
@@ -936,9 +975,33 @@
     },
     {
       "ap1Name": "geometry",
-      "ap2Name": "Shape 4",
+      "ap2Name": "geometry1",
       "ap1ID": "c4ddb9bb-b8db-4049-bd9e-18028044de92",
-      "ap2ID": "54f058cc-7630-4057-9c35-974b5f2c73a4"
+      "ap2ID": "2410c244-ec29-42b8-871d-647290d3bc10"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "0fcea3cb-cc6f-4a95-9015-52a54b850bd8",
+      "ap2ID": "e961351d-32cd-4435-a75d-b9a0d695fc5f"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry2",
+      "ap1ID": "e961351d-32cd-4435-a75d-b9a0d695fc5f",
+      "ap2ID": "2410c244-ec29-42b8-871d-647290d3bc10"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "number or geometry",
+      "ap1ID": "2410c244-ec29-42b8-871d-647290d3bc10",
+      "ap2ID": "1221c93e-9e6a-479e-9710-e1c6e130cd29"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "geometry",
+      "ap1ID": "2410c244-ec29-42b8-871d-647290d3bc10",
+      "ap2ID": "bbdae699-14d1-4187-9e94-5a32fff04c9e"
     }
   ],
   "unitsKey": "MM",
