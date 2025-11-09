@@ -123,8 +123,8 @@
     {
       "atomType": "Difference",
       "name": "Difference",
-      "x": 0.7458471760797343,
-      "y": 0.45652173913043476,
+      "x": 0.6786427145708582,
+      "y": 0.6583850931677019,
       "uniqueID": "c4ddb9bb-b8db-4049-bd9e-18028044de92",
       "ioValues": []
     },
@@ -524,8 +524,8 @@
     {
       "atomType": "GitHubMolecule",
       "name": "-6-Wood-Screw",
-      "x": 0.39285714285714285,
-      "y": 0.8509316770186335,
+      "x": 0.29940119760479045,
+      "y": 0.8633540372670808,
       "uniqueID": "4fe912b9-2f9d-4779-b1d2-ec1e7f818b29",
       "ioValues": [],
       "topLevel": false,
